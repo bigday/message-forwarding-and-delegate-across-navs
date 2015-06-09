@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "DelViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<DelViewControllerDelegate>
 
 @end
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@">>>>>>>>>>>>>>>%@",self);
+
+    
+}
+-(void)progress:(float)progress{
+    NSLog(@">>>>>>>>>>>>>>>>>>>>>%f",progress);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

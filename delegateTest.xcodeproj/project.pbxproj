@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B303011B26E1FC0079E0E0 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B303001B26E1FC0079E0E0 /* person.m */; };
+		17B303041B26ED400079E0E0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B303031B26ED400079E0E0 /* Car.m */; };
 		529D68AF1B22C8AD005598D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D68AE1B22C8AD005598D9 /* main.m */; };
 		529D68B21B22C8AD005598D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D68B11B22C8AD005598D9 /* AppDelegate.m */; };
 		529D68B51B22C8AD005598D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D68B41B22C8AD005598D9 /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		529D68BA1B22C8AD005598D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529D68B91B22C8AD005598D9 /* Images.xcassets */; };
 		529D68BD1B22C8AD005598D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529D68BB1B22C8AD005598D9 /* LaunchScreen.xib */; };
 		529D68C91B22C8AD005598D9 /* delegateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D68C81B22C8AD005598D9 /* delegateTestTests.m */; };
+		529D68D41B22CADB005598D9 /* DelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D68D31B22CADB005598D9 /* DelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B302FF1B26E1FC0079E0E0 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		17B303001B26E1FC0079E0E0 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		17B303021B26ED400079E0E0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		17B303031B26ED400079E0E0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		529D68A91B22C8AD005598D9 /* delegateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529D68AD1B22C8AD005598D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529D68AE1B22C8AD005598D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,8 @@
 		529D68C21B22C8AD005598D9 /* delegateTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegateTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529D68C71B22C8AD005598D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529D68C81B22C8AD005598D9 /* delegateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateTestTests.m; sourceTree = "<group>"; };
+		529D68D21B22CADB005598D9 /* DelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelViewController.h; sourceTree = "<group>"; };
+		529D68D31B22CADB005598D9 /* DelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				529D68B11B22C8AD005598D9 /* AppDelegate.m */,
 				529D68B31B22C8AD005598D9 /* ViewController.h */,
 				529D68B41B22C8AD005598D9 /* ViewController.m */,
+				529D68D21B22CADB005598D9 /* DelViewController.h */,
+				529D68D31B22CADB005598D9 /* DelViewController.m */,
+				17B302FF1B26E1FC0079E0E0 /* person.h */,
+				17B303001B26E1FC0079E0E0 /* person.m */,
+				17B303021B26ED400079E0E0 /* Car.h */,
+				17B303031B26ED400079E0E0 /* Car.m */,
 				529D68B61B22C8AD005598D9 /* Main.storyboard */,
 				529D68B91B22C8AD005598D9 /* Images.xcassets */,
 				529D68BB1B22C8AD005598D9 /* LaunchScreen.xib */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B303041B26ED400079E0E0 /* Car.m in Sources */,
 				529D68B51B22C8AD005598D9 /* ViewController.m in Sources */,
+				17B303011B26E1FC0079E0E0 /* person.m in Sources */,
 				529D68B21B22C8AD005598D9 /* AppDelegate.m in Sources */,
+				529D68D41B22CADB005598D9 /* DelViewController.m in Sources */,
 				529D68AF1B22C8AD005598D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				529D68CE1B22C8AD005598D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		529D68CF1B22C8AD005598D9 /* Build configuration list for PBXNativeTarget "delegateTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				529D68D11B22C8AD005598D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
