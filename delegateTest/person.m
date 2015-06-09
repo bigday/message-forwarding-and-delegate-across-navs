@@ -35,7 +35,7 @@ void runner (id self, SEL _cmd)
 {
     NSString *sel = NSStringFromSelector(aSelector);
     if ([sel isEqualToString:@"run"]) {
-        return [NSMethodSignature signatureWithObjCTypes:"v@:"];
+        return [NSMethodSignature signatureWithObjCTypes:"v@:"];//v代表返回值为void，@表示self，:表示_cmd。
     }
     return [super methodSignatureForSelector:aSelector];
 }
